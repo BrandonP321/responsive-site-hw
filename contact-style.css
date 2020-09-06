@@ -1,0 +1,21 @@
+form {
+    font-size: 30px;
+}
+
+label {
+    display: block;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.contact-form {
+    position: relative;
+    background-color: rgba(52, 58, 64, 0.9);
+    margin: 30px auto;
+    width: 60%;
+    padding: 50px;
+    border-radius: 30px;
+    height: 800px;
+}

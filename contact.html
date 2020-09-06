@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact-style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
 </head>
@@ -32,6 +33,24 @@
             </ul>
         </div>
     </nav>
+
+    <div class='contact-form text-white'>
+        <h1 class='text-center'>Contact</h1>
+        <form>
+            <div class='form-group'>
+                <label for='name-input'>Name</label>
+                <input type='text' name='name' id='name-input' placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <label for='email-input'>Email</label>
+                <input type='email' name='email' id='email-input' placeholder='Enter your email'>
+            </div>
+            <div class='form-group'>
+                <label for='message-input'>Message</label>
+                <textarea id='message-input' name='message' placeholder="Enter your message"></textarea>
+            </div>
+        </form>
+    </div>
 </body>
 
 </html>
