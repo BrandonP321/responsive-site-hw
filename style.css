@@ -3,13 +3,18 @@ html {
 }
 
 body {
-    background-color: lightgray;
+    background: url(images/jumbotron.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 footer {
     position: relative;
     display: flex;
     padding: 30px;
+    top: 500px;
 }
 
 .about-me {
@@ -19,4 +24,8 @@ footer {
 
 .icon-link {
     margin: 0 50px;
+}
+
+.jumbo-line {
+    background-color: white;
 }
