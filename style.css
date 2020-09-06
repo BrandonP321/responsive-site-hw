@@ -14,7 +14,6 @@ footer {
     position: relative;
     display: flex;
     padding: 30px;
-    top: 500px;
 }
 
 .about-me {
@@ -28,4 +27,16 @@ footer {
 
 .jumbo-line {
     background-color: white;
+}
+
+.squares {
+    padding: 50px;
+    flex-wrap: wrap;
+}
+
+.square {
+    width: 400px;
+    height: 400px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
