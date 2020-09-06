@@ -30,13 +30,14 @@ footer {
 }
 
 .squares {
-    padding: 50px;
-    flex-wrap: wrap;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    /* flex-wrap: wrap; */
 }
 
 .square {
-    width: 90%;
-    height: auto;
+    max-height: 90%;
+    width: 30vw;
     margin-top: 30px;
     margin-bottom: 30px;
 }
