@@ -15,3 +15,13 @@ footer {
     display: flex;
     padding: 30px;
 }
+
+.icon-link {
+    margin: 0 50px;
+}
+
+.sticky-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

@@ -24,12 +24,6 @@ h1 {
 }
 
 @media screen and (max-width: 768px) {
-    form {
-    }
-
-    h1 {
-    }
-
     .contact-form {
         padding: 1vw;
         margin: 10px auto;
