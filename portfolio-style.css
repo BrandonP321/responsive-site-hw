@@ -1,0 +1,12 @@
+.projects {
+    max-width: 80%;
+    padding: 5vw;
+    flex-wrap: wrap;
+    margin: 0 auto 5vw auto;
+    background-color: rgba(52, 58, 64, 0.9);
+    border-radius: 30px;
+}
+
+img {
+    margin: 1vw;
+}
