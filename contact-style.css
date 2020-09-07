@@ -25,7 +25,7 @@ h1 {
 
 @media screen and (max-width: 768px) {
     .contact-form {
-        padding: 1vw;
+        padding: 3vw;
         margin: 10px auto;
         width: 90%;
     }
