@@ -9,6 +9,11 @@
 
 img {
     margin: 1vw;
+    transition: transform .25s;
+}
+
+img:hover {
+    transform: scale(1.1);
 }
 
 .header-line {
