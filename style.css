@@ -17,11 +17,22 @@ footer {
 }
 
 .icon-link {
-    margin: 0 50px;
+    margin: 0 10vw;
 }
 
 .sticky-footer {
     position: absolute;
     bottom: 0;
     width: 100%;
+}
+
+@media screen and (min-width: 900) {
+    .icon-link {
+        margin: 0 50px;
+    }
+
+    .sticky-footer {
+        position: absolute;
+        bottom: 0;
+    }
 }

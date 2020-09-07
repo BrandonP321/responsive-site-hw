@@ -30,3 +30,9 @@ h1 {
         width: 90%;
     }
 }
+
+@media screen and (max-height: 600px) {
+    .contact-form {
+        height: 90vh;
+    }
+}
