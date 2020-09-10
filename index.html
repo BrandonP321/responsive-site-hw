@@ -13,6 +13,7 @@
 
 <body>
 
+    <!-- bootstrap navbar fixed to top of screen -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
         <a class="navbar-brand" href="index.html">Brandon Phillips</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -34,17 +35,20 @@
         </div>
     </nav>
 
+    <!-- bootstrap jumbotron with my name and quick overview of site -->
     <div class="jumbotron bg-transparent text-white">
         <h1 class="display-4">Hi, I'm Brandon Phillips!</h1>
         <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to
             featured content or information.</p>
         <hr class="my-4 bg-white">
-        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+        <p>It uses utility classes for typography asnd spacing to space content out within the larger container.</p>
+        <!-- button to smooth scroll down page to 'about me' section -->
         <a class="btn btn-primary btn-lg" href="#about-me" role="button">About Me</a>
     </div>
 
     <main>
 
+        <!-- 'about me' section with picture and quick bio -->
         <div class='about-me bg-dark text-white' id='about-me'>
 
             <h2 class='text-center'>About Me</h2>
@@ -90,10 +94,13 @@
             </div>
         </div>
 
+        <!-- 2 animated and clickable squares that link to other pages on the site -->
         <div class='squares d-flex justify-content-around'>
+            <!-- portfolio page square -->
             <a href='portfolio.html'>
                 <img class='square' src='http://www.placekitten.com/200/200' alt='portfolio link'>
             </a>
+            <!-- contact page square -->
             <a href='contact.html'>
                 <img src="http://www.placekitten.com/200/200" class="square" alt='portfolio link'>
             </a>
@@ -101,13 +108,17 @@
 
     </main>
 
+    <!-- sticky footer to bottom of page -->
     <footer class='bg-dark justify-content-center'>
+        <!-- facebook link with svg -->
         <a class='icon-link' href='https://www.facebook.com/profile.php?id=100007660270410' target='_blank'>
             <img class='icon' src='images/facebook1.svg' alt='facebook' height=50 width=50>
         </a>
+        <!-- instagram link with svg -->
         <a class='icon-link' href='https://www.instagram.com/brandontheroadblock/?hl=en' target='_blank'>
             <img class='icon' src='images/instagram.svg' alt='instagram' height=50 width=50>
         </a>
+        <!-- email link with svg -->
         <a class='icon-link' href='mailto:brandon.phillips976@gmail.com'>
             <img class='icon' src='images/mail.svg' alt='mail' height=50 width=50>
         </a>

@@ -1,7 +1,11 @@
+/* styling to be applied to all pages */
+
+/* set scrolling to smooth for nicer transitions */
 html {
     scroll-behavior: smooth;
 }
 
+/* set background image to be responsive */
 body {
     background: url(images/code-background.png) no-repeat center center fixed; 
     -webkit-background-size: cover;
@@ -16,10 +20,12 @@ footer {
     padding: 30px;
 }
 
+/* styling for links in footer */
 .icon-link {
     margin: 0 10vw;
 }
 
+/* keeps footer at bottom of the page */
 .sticky-footer {
     position: relative;
     bottom: 0;
@@ -27,6 +33,7 @@ footer {
 }
 
 @media screen and (orientation: landscape) {
+    /* larger margins for computer screens on footer */
     .icon-link {
         margin: 0 50px;
     }
@@ -35,4 +42,3 @@ footer {
         position: absolute;
         bottom: 0;
     }
-}

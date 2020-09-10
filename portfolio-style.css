@@ -1,3 +1,6 @@
+/* styling for portfolio.html */
+
+/* ensures responsive size of div containing pictures for small margins on small screens */
 .projects {
     max-width: 80%;
     padding: 5vw;
@@ -7,11 +10,13 @@
     border-radius: 30px;
 }
 
+/* responsive margins on images and sets transition to image animation */
 img {
     margin: 1vw;
     transition: transform .25s;
 }
 
+/* animation for images */
 img:hover {
     transform: scale(1.1);
 }

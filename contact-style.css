@@ -1,7 +1,9 @@
+/* styling for contact.html */
 form {
     font-size: 20px;
 }
 
+/* keep lables above their relative input field */
 label {
     display: block;
 }
@@ -10,6 +12,7 @@ h1 {
     font-size: 40px;
 }
 
+/* set styling of div containing form to be responsive and slightly transparent */
 .contact-form {
     position: relative;
     background-color: rgba(52, 58, 64, 0.9);
@@ -19,19 +22,19 @@ h1 {
     border-radius: 30px;
 }
 
+/* set inputs to take up most of containing space */
 #name-input, #email-input, textarea {
     width: 100%;
 }
 
-@media screen and (max-width: 768px) {
-
-}
-
+/* set responsiveness for protrait screens */
 @media screen and (orientation: portrait) {
+    /* needed contact form to be be taller to fix issue with sticky footer on larger phone screens */
     .contact-form {
         height: 90vh;
     }
 
+    /* minimize white space on smaller screens */
     .contact-form {
         padding: 3vw;
         margin: 10px auto;

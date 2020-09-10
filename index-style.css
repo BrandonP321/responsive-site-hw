@@ -1,13 +1,16 @@
+/* styling for index.html */
 .about-me {
     width: 100%;
     padding: 20px;
 }
 
+/* adjusts general padding of linked squares for responsiveness */
 .squares {
     padding-top: 3vw;
     padding-bottom: 3vw;
 }
 
+/* sets styling and animation properties to square image links */
 .square {
     max-height: 90%;
     width: 30vw;
@@ -17,17 +20,21 @@
     transition: transform .25s, filter .25s;
 }
 
+/* animation of linked squares */
 .square:hover {
     transform: scale(1.1);
     filter: grayscale(0%);
 }
 
+/* styling for when screen is in portrait */
 @media screen and (orientation: portrait) {
+    /* sets linked squares to have less space between screen edges */
     .square {
         width: 80vw;
         height: auto;
     }
 
+    /* ensures squares don't make the site wider than the screen width */
     .squares {
         flex-wrap: wrap;
     }
