@@ -6,6 +6,11 @@ $('.img-thumbnail').on('click', function() {
         var gitUrl = $(this).attr('data-giturl')
         var siteLink = $(this).attr('data-link')
 
+        var titleEle = $('<h2>')
+        const titleText = $(this).attr('data-title')
+        titleEle.attr('class', 'siteHeading')
+        titleEle.text(titleText)
+
         var imgEle = $('<img>')
         imgEle.attr('src', $(this).attr('src'))
         imgEle.attr('class', 'lightboxImg')
@@ -20,6 +25,7 @@ $('.img-thumbnail').on('click', function() {
         linkEle.attr('target', '_blank')
         linkEle.text('Check out the site here!')
 
+        $('.modal-content').append(titleEle)
         $('.modal-content').append(imgEle)
         $('.modal-content').append(linkEle)
         $('.modal-content').append(gitEle)

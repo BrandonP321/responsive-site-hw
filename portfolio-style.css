@@ -73,3 +73,8 @@ a {
     color: white;
     cursor: pointer;
 }
+
+.siteHeading {
+    color: white;
+    text-decoration: underline;
+}
